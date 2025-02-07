@@ -16,4 +16,4 @@ console.log(brazilianfoods[1]);
 
 
 brazilianfoods[1] = "Pão de queijo";
-console.log(brazilianfoods)
+console.log(brazilianfoods);
