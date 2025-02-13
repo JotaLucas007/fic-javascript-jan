@@ -1,6 +1,6 @@
 // Bloco de código
 function nomeDaFuncao() {
-    return ("Minha função *****");
+    alert("Minha função *****");
 }
 
 // cahmando a função
