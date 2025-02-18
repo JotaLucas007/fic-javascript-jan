@@ -58,7 +58,17 @@ body {
 }
 
 #resultado {
-    color:  #fff;
+    color: #fff;
     margin-bottom: 10px;
 
+}
+
+#menssage {
+    display: none;
+}
+
+#menssage span {
+    color: red;
+    margin-bottom: 10px;
+    display: block;
 }
