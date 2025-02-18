@@ -16,5 +16,10 @@ function mudar(event) {
     subtitulo.innerHTML = cidade.value;
     txtEmail.innerHTML = email.value;
 
+    // Limpar campos
+    nome.value = "";
+    cidade.value = "";
+    email.value = "";
+
 
 }

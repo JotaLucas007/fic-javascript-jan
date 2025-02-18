@@ -10,9 +10,11 @@ function resultadoNotaClick(Event) {
 
     // Validaçãode formulário
     if (inputNota.value === "") {
-        //alert("Digite a nota");
+        message.style.display = "block";
         return false;
     }
+
+    message.style.display = "none";
 
     // Condição
     if (inputNota.value >= 6) {
