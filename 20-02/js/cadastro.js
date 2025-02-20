@@ -7,11 +7,14 @@ salvarBtn.addEventListener("click", function() {
     const valor = campo.value;
     
     // Salvar no localStorage
-    const chave = `ValorSal_${Date.now}`; // usa timestamp para chve única
+    const chave = `ValorSalvo_${Date.now()}`; // usa timestamp para chave única
     //console.log(chave)
     // Funcionalidade do LocaslStorage
     localStorage.setItem(chave, valor);
 
     // Limpar campo após salvar
     campo.value = "";
+
+    // Exibir valores salvos
+    carregarValoresSalvos()
 });
