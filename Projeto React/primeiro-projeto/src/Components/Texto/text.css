@@ -1,0 +1,11 @@
+.text-container {
+    padding: 20px;
+    background-color: red;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.text-content {
+    font-size: 18px;
+    color: #333;
+}
